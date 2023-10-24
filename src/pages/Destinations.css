@@ -1,0 +1,135 @@
+.card-section{
+    display: flex;
+    flex-direction: row;
+}
+.destination_section {
+    /* background-color: #452268; */
+    /* color: #f1bb47; */
+    color:  #FFD700;
+}
+
+.forts_text {
+    color: #f1bb47
+}
+
+/* #002366 */
+.image_container {
+    position: relative;
+    /* width: 100vw; */
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://www.bwallpaperhd.com/wp-content/uploads/2018/08/JaisalmerFort.jpg');
+}
+
+.image_container::after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#b6deff00 50%, #ff8b4d);
+}
+
+.image_container img {
+    width: 100%;
+    height: 100%;
+}
+
+.image_container video {
+    width: 100%;
+    height: 100%;
+}
+
+.image_container h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: rgb(0, 0, 0);
+    z-index: 10;
+}
+.destination-card{
+    width: 80%;
+    /* height: 512px; */
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+
+}
+.destination-image {
+    width: 50%;
+    /* overflow: hidden; */
+    border-radius: 16px;
+}
+.destination-image img {
+    max-height: 446px;
+    max-width: 520px;
+    width: 100%;
+    border-radius: 6px;
+}
+.destination-content{
+    display: flex;
+    flex-direction: column;
+}
+.destination-name{
+    font-size:  32px;
+    font-weight: bold;
+}
+
+.destination-card1{
+    width: 80%;
+    /* height: 512px; */
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.destination-image1 {
+    width: 100%;
+    /* overflow: hidden; */
+    border-radius: 16px;
+}
+.destination-image img {
+    max-height: 446px;
+    max-width: 520px;
+    width: 100%;
+    border-radius: 6px;
+}
+.destination-content{
+    display: flex;
+    flex-direction: column;
+}
+.destination-name{
+    font-size:  32px;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .destination-card{
+        flex-direction: column;
+    }
+    .destination-name{
+        font-size:  16px;
+        font-weight: bold;
+    }
+    .destination-image {
+        width: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

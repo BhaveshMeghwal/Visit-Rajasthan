@@ -1,0 +1,35 @@
+.preloader{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: hsla(352, 47%, 69%, 1);
+    background: linear-gradient(135deg, hsla(21, 100%, 65%, 1) 30%, hsla(352, 47%, 69%, 1) 80%);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mandala-container{
+    position: absolute;
+    top: 50%;
+    margin: 0 auto;
+}
+
+.mandala{
+    width: 212px;
+    animation: rotate 5s linear infinite;
+}
+.welcome-container{
+    position: absolute;
+    top: 10%;
+    margin: 0 auto;
+}
+@keyframes rotate {
+    
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

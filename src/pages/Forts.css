@@ -1,0 +1,197 @@
+.forts_section1 {
+    background-color: #452268;
+    /* color: #f1bb47; */
+    color:  #FFD700;
+}
+
+.forts_text {
+    color: #f1bb47
+}
+
+/* #002366 */
+.image_container {
+    position: relative;
+    /* width: 100vw; */
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.forts_section1 .image_container {
+    background-image: url('https://www.bwallpaperhd.com/wp-content/uploads/2018/08/JaisalmerFort.jpg');
+}
+
+.image_container::after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#b6deff00 50%, #452268);
+}
+
+.image_container img {
+    width: 100%;
+    height: 100%;
+}
+
+.image_container video {
+    width: 100%;
+    height: 100%;
+}
+
+.image_container h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: rgb(0, 0, 0);
+    z-index: 10;
+}
+
+.forts_section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.forts_card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    /* justify-content: space-around; */
+
+}
+
+/* ******************************************* */
+.temple_section {
+    background-color: #FF7722;
+    color: #820000;
+}
+.temple_section .image_container {
+    background-image: url('https://images.unsplash.com/photo-1661703307198-a96950927014?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80');
+}
+
+.temple_section .image_container::after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#ffe2b700 80%, #FF7722);
+}
+
+.forts_section .image_container {
+    background-image: url('https://www.bwallpaperhd.com/wp-content/uploads/2018/08/JaisalmerFort.jpg');
+}
+
+.cuisine_section {
+    background-color: #FF9933;
+}
+.cuisine_section .image_container {
+    background-image: url('https://img.freepik.com/free-photo/camel-caravan-desert-sunrise-ai-generated-image_511042-1678.jpg?t=st=1695893847~exp=1695897447~hmac=3477f0f3eb28d67846f4162d34be9af15c327edd997053e58c83ce773412566c&w=1380');
+}
+
+.cuisine_section .image_container::after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#ffe2b700 50%, #FF9933);
+}
+
+.forest_section {
+    background-color: #29AB87;
+    color: #EE4B2B;
+    /* color: #000; */
+}
+.forest_section .image_container {
+    background-image: url('https://images.unsplash.com/photo-1630577303708-c50de21cf8ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1859&q=80');
+}
+
+.forest_section .image_container::after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#ffe2b700 50%, #29AB87);
+}
+
+.forest_section p {
+    /* color: #a84415; */
+    color: #000;
+}
+
+.lake_section {
+    background-color: #00A8A8;
+    /* color: ; */
+}
+.lake_section .image_container {
+    background-image: url('https://www.theleela.com/prod/content/assets/styles/tl_1920_735/public/aio-banner/dekstop/Lake-Pichola-All-about-Udaipur%27s-most-famous-attraction.jpg?VersionId=53uAWYFjJBmJt3TVX8wccvDe1BI3z4YG&itok=X1uO5zNJ');
+}
+
+.lake_section .image_container::after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#ffe2b700 50%, #00A8A8);
+}
+
+.fairs_section {
+    /* background: linear-gradient( rgba(255,182,193,1), rgba(230,230,250,1)); */
+    background-color: #800000;
+    color: #fff8d4;
+}
+.fairs_section h1{
+    /* background: linear-gradient( rgba(255,182,193,1), rgba(230,230,250,1)); */
+    /* background-color: #800000; */
+    color: #FFD700;
+}
+.fairs_section .image_container {
+    background-image: url('https://images.pexels.com/photos/5147431/pexels-photo-5147431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.fairs_section .image_container::after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#ffe2b700 50%, #800000);
+}
+
+@media only screen and (max-width: 600px) {
+    .image_container {
+        background-image: url('https://www.bwallpaperhd.com/wp-content/uploads/2018/08/JaisalmerFort.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .forts_card {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

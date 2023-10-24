@@ -1,0 +1,67 @@
+.map-section {
+    /* position: relative; */
+}
+
+.swiper_container {
+    margin: -10% 0 0 10%;
+}
+
+.card2 {
+    width: 256px;
+    height: 160px;
+    /* margin: 20px; */
+    /* background: #fff; */
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.card2 img {
+    height: 130px;
+    width: 100%;
+}
+
+.card-content2 {
+    /* height: 100%; */
+    padding: 0 auto;
+    background: url("https://img.freepik.com/free-vector/yellow-pink-swirled-pattern_1040-35.jpg?size=626&ext=jpg");
+}
+
+.marker {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 50%;
+    /* width: 100px;
+    height: 100px; */
+    z-index: 11;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .swiper-slide {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        scale: 0.9;
+    }
+    .swiper_container {
+        margin: -25% 0 0 -10%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .card-container {
+        padding: 0 25%;
+    }
+}

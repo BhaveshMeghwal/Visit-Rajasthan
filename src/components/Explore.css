@@ -1,0 +1,56 @@
+/* .swiper-slide {
+    max-width: fit-content;
+} */
+.mySwiper_destination{
+    margin-left: 15%;
+}
+.card-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    white-space: nowrap;
+    padding: 3rem 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.card_container::-webkit-scrollbar {
+    display: none;
+}
+
+/* .image-container img{
+    width: 80%;
+} */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .card1{
+        width: calc(50% - -124px);
+        height: 126px;
+    }
+    .mySwiper_destination{
+        margin-left: 0%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .card-container {
+        padding: 0 25%;
+    }
+}

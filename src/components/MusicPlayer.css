@@ -1,0 +1,90 @@
+.player-section {
+    margin: 0 auto;
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    border-radius: 16px;
+    border: 1px solid #800000;
+}
+audio{
+    width: inherit;
+}
+.player {
+    width: 50%;
+    border-right: 1px solid #800000;
+    padding: 1rem;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.player::-webkit-scrollbar{
+    display: none;
+}
+
+.right {
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.disc-img{
+    width: inherit;
+    /* animation: rotate 10s linear infinite; */
+}
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.song {
+    cursor: pointer;
+    margin: 3px;
+    padding: 1rem;
+    border-radius: 16px;
+    border: 1px solid #800000;
+    width: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .player-section {
+        width: 80vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .player {
+        width: 100%;
+        border-right: 0px solid #800000;
+        padding: 0.5rem;
+    }
+    .right {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .song {
+        cursor: pointer;
+        margin: 3px;
+        padding: 0.5rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .card-container {
+        margin-left: 10em;
+    }
+}
