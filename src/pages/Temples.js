@@ -3,6 +3,7 @@ import './Forts.css'
 import Card from '../components/Card'
 import { database, ref, onValue } from '../Firebase'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 
 const Temples = () => {
@@ -57,6 +58,7 @@ const Temples = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

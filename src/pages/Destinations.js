@@ -4,6 +4,7 @@ import { database, ref, onValue } from '../Firebase'
 import Card from '../components/Card'
 import TravelerExp from '../components/TravelerExp'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 const Destinations = () => {
   const [destinations, setDestination] = useState({});
@@ -51,13 +52,14 @@ const Destinations = () => {
             </div>
             <div className='destination-content'>
               {/* <h1>{destinations[key]}</h1> */}
-              <h1 className='destination-name'>{destinations[key].name}</h1>
-              <p className='destination-description'></p>
+              <h1 className='destination-name heading_font'>{destinations[key].name}</h1>
+              <p className='destination-description my-2'>{destinations[key].description}</p>
             </div>
           </div>
         ))}
 
       </div>
+      <Footer/>
     </>
   )
 }

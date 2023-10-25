@@ -24,6 +24,12 @@ header{
 }
 .navbar ul li a{
     padding: 15px 25px;
+    font-family: heading;
+    transition: all 0.5s ;
+}
+.navbar ul li a:hover{
+    color: #800000;
+    font-weight: 600;
 }
 .nav_mobile{
     display: none;

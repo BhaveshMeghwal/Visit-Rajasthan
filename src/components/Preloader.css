@@ -12,6 +12,7 @@
 .mandala-container{
     position: absolute;
     top: 50%;
+    /* bottom: 50%; */
     margin: 0 auto;
 }
 
@@ -20,9 +21,18 @@
     animation: rotate 5s linear infinite;
 }
 .welcome-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     position: absolute;
-    top: 10%;
+    top: 50%;
+    bottom: 50%;
     margin: 0 auto;
+    transform: scale(0);
+}
+.welcome-container img{
+    width: 256px;
 }
 @keyframes rotate {
     

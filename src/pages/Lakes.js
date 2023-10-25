@@ -3,6 +3,7 @@ import './Forts.css'
 import Card from '../components/Card'
 import { database, ref, onValue } from '../Firebase'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 const Lakes = () => {
 
@@ -53,6 +54,7 @@ Rajasthan, a state known for its arid landscapes, paradoxically boasts an exquis
                     </div>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

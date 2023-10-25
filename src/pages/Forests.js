@@ -3,6 +3,7 @@ import './Forts.css'
 import Card from '../components/Card'
 import { database, ref, onValue } from '../Firebase'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 const Forests = () => {
     const [data, setData] = useState({});
@@ -60,6 +61,7 @@ const Forests = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

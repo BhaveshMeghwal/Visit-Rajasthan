@@ -25,11 +25,10 @@ const Preloader = () => {
             scale: "1", height: "100%"
         }, { scale: "0", height: "0", delay: "2", duration: "0.1" })
         tl.fromTo(".welcome-container", {
-            scale: "0", height: "0%"
-        }, { scale: "1", height: "100%", duration: "0.4" })
+            scale: "0",
+        }, { scale: "1", duration: "0.3" })
         tl.fromTo(".preloader", {
             yPercent: 0,
-
             opacity: 1
         }, {
             yPercent: -100,

@@ -4,6 +4,7 @@ import Card from '../components/Card'
 import { database, ref, onValue } from '../Firebase'
 import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 
 const Fairs = () => {
@@ -60,6 +61,7 @@ const Fairs = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }
