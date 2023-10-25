@@ -16,12 +16,12 @@ const Footer = () => {
         <div>
           <h1 className='font-bold my-1'>Discover</h1>
           <ul>
-            <li><a href='/'>Forts</a></li>
+            <li><a href='/forts'>Forts</a></li>
             
             <li><a href='/'>Museums</a></li>
-            <li><a href='/'>Lakes</a></li>
-            <li><a href='/'>Religious Places</a></li>
-            <li><a href='/'>Wildlife</a></li>
+            <li><a href='/lakes'>Lakes</a></li>
+            <li><a href='/temples'>Religious Places</a></li>
+            <li><a href='/wildlife'>Wildlife</a></li>
             <li><a href='/'>Palaces</a></li>
             {/* <li><a href='/'>Fairs & Festivals</a></li> */}
           </ul>
@@ -40,11 +40,11 @@ const Footer = () => {
         <div>
           <h1 className='font-bold my-1'>Plan & Experience</h1>
           <ul>
-            <li><a href='/'>Gallery</a></li>
+            <li><a href='/gallery'>Gallery</a></li>
             {/* <li><a href='/'>How to get there</a></li>
             <li><a href='/'>Foreign Tourists</a></li> */}
-            <li><a href='/'>Destinations</a></li>
-            <li><a href='/'>fairs & Festival </a></li>
+            <li><a href='/destination'>Destinations</a></li>
+            <li><a href='/fairs'>fairs & Festival </a></li>
             <li><a href='/'>Luxury on wheels</a></li>
             <li><a href='/'>Suggested Iteneries</a></li>
           </ul>

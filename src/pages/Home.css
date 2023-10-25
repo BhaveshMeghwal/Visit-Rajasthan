@@ -1,6 +1,6 @@
 .home-section {
     width: 100vw;
-    background: linear-gradient(135deg, hsla(21, 100%, 65%, 1) 30%,#ffc99a, hsla(352, 47%, 69%, 1) 80%);
+    background: linear-gradient(135deg, hsla(21, 100%, 65%, 1) 25%,rgba(255, 164, 116, 0.815) ,#ffc99a, hsla(352, 47%, 69%, 1) 80%);
 }
 
 .hero-img {
@@ -19,7 +19,7 @@
     letter-spacing: 25px;
     text-transform: uppercase;
     font-size: 176px;
-    z-index: 2;
+    z-index: 100;
     /* width: 100vw;
     height: 30vh; */
 }

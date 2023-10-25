@@ -2,9 +2,10 @@
     column-count: 3;
     column-gap: 10px;
 }
-/* .gallery-section{
-    background-color: bisque;
-} */
+.gallery-section{
+    width: 100vw;
+    background: linear-gradient(135deg, hsla(21, 100%, 65%, 1) 25%,rgba(255, 164, 116, 0.815) ,#ffc99a, hsla(352, 47%, 69%, 1) 80%);
+}
 .gallery-img {
     max-width: 100%;
     display: block;
