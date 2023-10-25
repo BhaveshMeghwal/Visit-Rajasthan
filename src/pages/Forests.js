@@ -36,20 +36,11 @@ const Forests = () => {
             allowfullscreen></iframe> */}
                 </div>
                 <div className='forts_section'>
-                    <h1 className=' heading_font text-center font-bold'>Walls That Whisper Tales: <br /> Rajasthan's Fortresses</h1>
+                    <h1 className=' heading_font text-center font-bold'>Wildife <br/>Journey to the Wild: Rajasthan's Sanctuaries</h1>
+                    
                     <p>
-                        Rajasthan, often referred to as the "Land of Forts," boasts a stunning collection of historic fortifications that are not only architectural
-                        marvels but also repositories of the state's rich history and culture.<br />
-                        Architecturally, Rajasthan's forts are breathtaking. They feature intricately carved facades, imposing gateways, delicate jharokhas (balconies),
-                        and robust fortifications, all made from the region's signature sandstone. Inside these forts lie opulent palaces, lush courtyards, and regal
-                        chambers that once hosted royal courts and nobility.<br />
-                        Beyond their historical and architectural significance, these forts are living testaments to Rajasthan's cultural heritage. They serve as venues
-                        for festivals, performances, and cultural events, allowing visitors to immerse themselves in the state's traditions and vibrant culture. Some,
-                        such as Chittorgarh Fort and Kumbhalgarh Fort, have even earned UNESCO World Heritage Site status, highlighting their global importance.<br />
-                        Today, Rajasthan's forts continue to be major tourist attractions, drawing travelers from around the world who come to explore their rich history,
-                        awe-inspiring architecture, and cultural heritage. These forts are more than just historic monuments; they are timeless symbols of Rajasthan's valor,
-                        resilience, and the enduring legacy of its rulers.
-
+                    Rajasthan, known for its expansive deserts and historical grandeur, also hides within its borders a treasure trove of diverse wildlife and lush forests. These ecological havens provide a stark contrast to the arid landscapes, offering a thriving ecosystem for numerous species of flora and fauna. Ranthambore National Park, one of India's premier tiger reserves, is a prominent highlight. Here, the regal Bengal tiger reigns supreme, while leopards, sloth bears, and a rich avian population add to the park's allure. Keoladeo National Park, a UNESCO World Heritage Site, is a wetland paradise for bird enthusiasts, with migratory birds from across the globe making it their seasonal home. Sariska Tiger Reserve, too, is home to the majestic big cats, along with various other wildlife species.
+                        
                     </p>
 
                     <div className='forts_card '>

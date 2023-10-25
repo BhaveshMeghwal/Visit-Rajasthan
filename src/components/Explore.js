@@ -139,7 +139,7 @@ const Explore = () => {
           </div>
           <div className='card1'>
             <a href='/museum'>
-              <img className='card1-img' src='https://media-cdn.tripadvisor.com/media/photo-m/1280/28/e6/87/ec/royal-dinein-rajasthani.jpg' alt=''></img>
+              <img className='card1-img' src='https://img.veenaworld.com/wp-content/uploads/2021/07/Albert-Hall-Museum-Jaipur-Ticket-Price-History-and-Timings-scaled.jpg' alt=''></img>
               <h1 className='text-center font-bold'>Museum</h1>
             </a>
 

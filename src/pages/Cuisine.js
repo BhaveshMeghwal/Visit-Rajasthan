@@ -30,7 +30,7 @@ const Cuisine = () => {
             <div className='cuisine_section'>
                 <div className='image_container'>
                     {/* <img src='https://img.freepik.com/free-photo/camel-caravan-desert-sunrise-ai-generated-image_511042-1678.jpg?t=st=1695893847~exp=1695897447~hmac=3477f0f3eb28d67846f4162d34be9af15c327edd997053e58c83ce773412566c&w=1380' alt='' /> */}
-                    <h1 className='text-center font-bold'>Walls That Whisper Tales: <br /> Rajasthan's Fortresses</h1>
+                    {/* <h1 className='text-center font-bold'>Walls That Whisper Tales: <br /> Rajasthan's Fortresses</h1> */}
                     {/* <video src={vid} muted autoPlay/> */}
                     {/* <iframe width="100%" height="00%" src="https://www.youtube.com/embed/RmxaeW-abNk?si=zdJKt5hyhTVlnih-&amp;controls=0&amp;start=138" 
     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 

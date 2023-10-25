@@ -53,7 +53,7 @@ const Fairs = () => {
                         {Object.keys(data).map((key) => (
                            
                                     <Card key={data[key]}
-                                        name={data[key].name} img={data[key].image_url} destination="Amer fort" />
+                                    name={data[key].name} img={data[key].image_url} destination={data[key].city} />
 
                              
                         ))}
