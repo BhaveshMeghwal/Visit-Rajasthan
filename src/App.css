@@ -23,7 +23,6 @@ body {
     padding: 0%;
     /* color:  #7c0e0e; */
     box-sizing: border-box;
-    background: linear-gradient(135deg, hsla(21, 100%, 65%, 1) 30%,#ffc99a, hsla(352, 47%, 69%, 1) 80%);
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */

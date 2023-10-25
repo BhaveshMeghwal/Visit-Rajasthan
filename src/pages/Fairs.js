@@ -51,17 +51,18 @@ const Fairs = () => {
                         {/* {JSON.stringify(data, null, 2)} */}
 
                         {Object.keys(data).map((key) => (
-                                <Link to={data[key].name} >
+                           
                                     <Card key={data[key]}
                                         name={data[key].name} img={data[key].image_url} destination="Amer fort" />
 
-                                </Link>
+                             
                         ))}
 
                     </div>
                 </div>
+                <Footer/>
             </div>
-            <Footer/>
+            
         </>
     )
 }

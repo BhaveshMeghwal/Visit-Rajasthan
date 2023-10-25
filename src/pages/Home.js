@@ -54,7 +54,7 @@ const Home = () => {
     gsap.fromTo(".sky-img",{
       scale:"1"
     }, {
-      scale: "2.5",
+      scale: "3.5",
       // delay:"4",
       // duration:"2",
       scrollTrigger: {
@@ -114,7 +114,7 @@ const Home = () => {
       <div className='home-section'>
         <Navbar />
         <div className='hero-img'>
-          <img className='desert-img ' src={img2} alt=''></img>
+          {/* <img className='desert-img ' src={img2} alt=''></img> */}
           <div className='title heading_font text-center'>Rajasthan</div>
           <div className='heading_font text-center tag-line z-10'> Discover the Jewel of India</div>
           <div className='shadow'></div>
@@ -122,7 +122,9 @@ const Home = () => {
           src={img1}
           // src='https://images.unsplash.com/photo-1602858659965-ea6f743b7679?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1693&q=80'
           alt=''></img> */}
-          <img className='sky-img' src={img3} alt=''></img>
+          {/* <img className='sky-img' src={img3} alt=''></img> */}
+          <div className='desert-img '></div>
+          <div className='sky-img'></div>
         </div>
         <div className='top-destinations'>
           <h1 className='text-center visit-rajasthan heading_font my-10'>Visit Rajasthan</h1>
@@ -177,8 +179,9 @@ const Home = () => {
         </video> */}
         <MusicPlayer/>
         <Music />
+        <Footer />
       </div>
-      <Footer />
+      
     </>
   )
 }

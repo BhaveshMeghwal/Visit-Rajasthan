@@ -13,7 +13,7 @@
 }
 
 /* #002366 */
-.image_container {
+.image_container1 {
     position: relative;
     /* width: 100vw; */
     height: 80vh;
@@ -23,7 +23,7 @@
     background-image: url('https://www.bwallpaperhd.com/wp-content/uploads/2018/08/JaisalmerFort.jpg');
 }
 
-.image_container::after {
+.image_container1::after {
     content: "";
     position: absolute;
     top: 0%;

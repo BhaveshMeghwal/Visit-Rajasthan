@@ -60,8 +60,9 @@ const Forests = () => {
                         ))}
                     </div>
                 </div>
+                <Footer/>
             </div>
-            <Footer/>
+            
         </>
     )
 }

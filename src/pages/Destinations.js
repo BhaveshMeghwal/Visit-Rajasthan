@@ -31,7 +31,7 @@ const Destinations = () => {
       <Navbar />
       <div className='destination-section'>
 
-        <div className='image_container'>
+        <div className='image_container1'>
           {/* <img src='https://www.bwallpaperhd.com/wp-content/uploads/2018/08/JaisalmerFort.jpg' alt='' /> */}
           {/* <h1 className='text-center font-bold'>{data.main_heading}</h1> */}
           {/* <video src={vid} muted autoPlay/> */}
@@ -57,9 +57,9 @@ const Destinations = () => {
             </div>
           </div>
         ))}
-
+<Footer/>
       </div>
-      <Footer/>
+      
     </>
   )
 }

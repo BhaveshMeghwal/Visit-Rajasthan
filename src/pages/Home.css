@@ -1,5 +1,6 @@
 .home-section {
     width: 100vw;
+    background: linear-gradient(135deg, hsla(21, 100%, 65%, 1) 30%,#ffc99a, hsla(352, 47%, 69%, 1) 80%);
 }
 
 .hero-img {
@@ -10,14 +11,15 @@
 
 .title {
     position: absolute;
-    top: 15%;
+    top: 12%;
+    /* bottom: 50%; */
     left: 50%;
     z-index: 1;
     transform: translate(-50%, 50%);
     letter-spacing: 25px;
     text-transform: uppercase;
     font-size: 176px;
-    z-index: 1;
+    z-index: 2;
     /* width: 100vw;
     height: 30vh; */
 }
@@ -26,7 +28,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    z-index: 3;
+    z-index: 100;
     transform: translate(-50%, 50%);
 }
 
@@ -41,8 +43,13 @@
 
 .desert-img {
     position: relative;
+    background-image: url("../assets/33.png");
+    background-position: center;
+
+    width: 100vw;
+    height: 100vh;
     top: 0;
-    z-index: 2;
+    z-index: 3;
 }
 
 .camel-img {
@@ -54,9 +61,15 @@
 
 .sky-img {
     position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../assets/5.png");
+    width: 100vw;
+    height: 100vh;
     left: 0%;
     top: -30%;
-    z-index: -1;
+    z-index: 1;
 }
 
 .rajasthan-text {

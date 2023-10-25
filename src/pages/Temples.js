@@ -53,12 +53,12 @@ const Temples = () => {
                             <Card key={data[key]}
                                 name={data[key].name} destination="Amer fort" />
                         ))}
-                        <Card />
 
                     </div>
                 </div>
+                <Footer/>
             </div>
-            <Footer/>
+            
         </>
     )
 }

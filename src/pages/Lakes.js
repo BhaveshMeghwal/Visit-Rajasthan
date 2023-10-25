@@ -53,8 +53,9 @@ Rajasthan, a state known for its arid landscapes, paradoxically boasts an exquis
 
                     </div>
                 </div>
+                <Footer/>
             </div>
-            <Footer/>
+            
         </>
     )
 }

@@ -52,8 +52,9 @@ const Cuisine = () => {
 
                     </div>
                 </div>
+                <Footer/>
             </div>
-            <Footer/>
+            
         </>
     )
 }
