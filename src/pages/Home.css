@@ -28,7 +28,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    z-index: 100;
+    z-index: 5;
     transform: translate(-50%, 50%);
 }
 
@@ -38,7 +38,7 @@
     width: 100vw;
     height: 30vh;
     background: linear-gradient(to bottom, #ff8d4f00, #FF8E4F);
-    z-index: 11;
+    z-index: 4;
 }
 
 .desert-img {

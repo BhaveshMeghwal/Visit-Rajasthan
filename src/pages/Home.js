@@ -116,7 +116,7 @@ const Home = () => {
         <div className='hero-img'>
           {/* <img className='desert-img ' src={img2} alt=''></img> */}
           <div className='title heading_font text-center'>Rajasthan</div>
-          <div className='heading_font text-center tag-line z-10'> Discover the Jewel of India</div>
+          <div className='heading_font text-center tag-line'> Discover the Jewel of India</div>
           <div className='shadow'></div>
           {/* <img className='camel-img'
           src={img1}

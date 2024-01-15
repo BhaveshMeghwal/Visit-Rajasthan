@@ -2,10 +2,11 @@
     display: flex;
     flex-direction: row;
 }
-.destination_section {
+.destination-section {
     /* background-color: #452268; */
     /* color: #f1bb47; */
-    color:  #FFD700;
+    /* color:  #FFD700; */
+    background: linear-gradient(180deg, #ff8b4d 10%, hsla(352, 47%, 69%, 1) 100%);
 }
 
 .forts_text {
@@ -82,6 +83,7 @@
 }
 
 .destination-card1{
+    background: linear-gradient(180deg, #ff8b4d 10%, hsla(352, 47%, 69%, 1) 100%);
     width: 80%;
     /* height: 512px; */
     margin: 20px auto;
