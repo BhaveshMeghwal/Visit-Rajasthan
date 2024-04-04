@@ -28,21 +28,17 @@ const Gallery = () => {
   const [images, setImages] = useState([]);
 
   useEffect(() => {
-    // Reference the Firebase Storage directory where your videos are stored
     const storageRef = ref(imageDb, 'images');
-    // List all items in the 'videos' directory
     listAll(storageRef)
       .then((result) => {
-        // Iterate through the items and get download URLs
         const videoPromises = result.items.map((item) =>
           getDownloadURL(item).then((url) => ({ name: item.name, url }))
         );
 
-        // Wait for all promises to resolve
         return Promise.all(videoPromises);
       })
       .then((videoData) => {
-        setImages(videoData); // Set the video data in the state
+        setImages(videoData); 
       })
       .catch((error) => {
         console.error('Error fetching video data:', error);

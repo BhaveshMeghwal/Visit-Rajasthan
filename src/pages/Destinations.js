@@ -11,15 +11,12 @@ const Destinations = () => {
   const dataRef = ref(database, '/top_destination');
 
   useEffect(() => {
-    // Attach a listener to the database reference
+   
     const unsubscribe = onValue(dataRef, (snapshot) => {
-      // Retrieve and update data in real-time
       if (snapshot.exists()) {
         setDestination(snapshot.val());
       }
     });
-
-    // Clean up the listener when the component unmounts
     return () => {
       unsubscribe();
     };

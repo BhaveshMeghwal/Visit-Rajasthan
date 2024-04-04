@@ -13,15 +13,12 @@ const Fairs = () => {
     const dataRef = ref(database, '/festivals');
 
     useEffect(() => {
-        // Attach a listener to the database reference
+      
         const unsubscribe = onValue(dataRef, (snapshot) => {
-            // Retrieve and update data in real-time
             if (snapshot.exists()) {
                 setData(snapshot.val());
             }
         });
-
-        // Clean up the listener when the component unmounts
         return () => {
             unsubscribe();
         };
@@ -48,8 +45,6 @@ const Fairs = () => {
                     </p>
 
                     <div className='forts_card '>
-                        {/* {JSON.stringify(data, null, 2)} */}
-
                         {Object.keys(data).map((key) => (
                            
                                     <Card key={data[key]}
